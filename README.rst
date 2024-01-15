@@ -1,49 +1,45 @@
-.. These are examples of badges you might want to add to your README:
-   please update the URLs accordingly
-
-    .. image:: https://api.cirrus-ci.com/github/<USER>/CodeBlueprints-Python.svg?branch=main
-        :alt: Built Status
-        :target: https://cirrus-ci.com/github/<USER>/CodeBlueprints-Python
-    .. image:: https://readthedocs.org/projects/CodeBlueprints-Python/badge/?version=latest
-        :alt: ReadTheDocs
-        :target: https://CodeBlueprints-Python.readthedocs.io/en/stable/
-    .. image:: https://img.shields.io/coveralls/github/<USER>/CodeBlueprints-Python/main.svg
-        :alt: Coveralls
-        :target: https://coveralls.io/r/<USER>/CodeBlueprints-Python
-    .. image:: https://img.shields.io/pypi/v/CodeBlueprints-Python.svg
-        :alt: PyPI-Server
-        :target: https://pypi.org/project/CodeBlueprints-Python/
-    .. image:: https://img.shields.io/conda/vn/conda-forge/CodeBlueprints-Python.svg
-        :alt: Conda-Forge
-        :target: https://anaconda.org/conda-forge/CodeBlueprints-Python
-    .. image:: https://pepy.tech/badge/CodeBlueprints-Python/month
-        :alt: Monthly Downloads
-        :target: https://pepy.tech/project/CodeBlueprints-Python
-    .. image:: https://img.shields.io/twitter/url/http/shields.io.svg?style=social&label=Twitter
-        :alt: Twitter
-        :target: https://twitter.com/CodeBlueprints-Python
-
-.. image:: https://img.shields.io/badge/-PyScaffold-005CA0?logo=pyscaffold
-    :alt: Project generated with PyScaffold
-    :target: https://pyscaffold.org/
-
 |
 
 =====================
 CodeBlueprints-Python
 =====================
 
+Short Description
+-----------------
 
-    Add a short description here!
+This project is a Python package for creating code blueprints.
 
+Long Description
+----------------
 
-A longer description of your project goes here...
+CodeBlueprints-Python is a comprehensive tool for generating code blueprints. It provides a simple and intuitive API, making it easy for developers to generate code blueprints for various programming languages.
 
+Installation
+------------
 
-.. _pyscaffold-notes:
+You can install CodeBlueprints-Python with pip:
 
-Note
-====
+.. code-block:: bash
 
-This project has been set up using PyScaffold 4.5. For details and usage
-information on PyScaffold see https://pyscaffold.org/.
+    pip install codeblueprints_python
+
+Setting Up a Virtual Environment
+--------------------------------
+
+Before running the tests, you may want to create a virtual environment:
+
+.. code-block:: bash
+
+    python3 -m venv env
+    source env/bin/activate
+
+Running Tests
+-------------
+
+You can run the tests with pytest:
+
+.. code-block:: bash
+
+    pip install pytest pytest-cov
+    pytest
+
